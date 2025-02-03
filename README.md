@@ -25,15 +25,16 @@ cd RAGX-SQL-High-Efficiency-Contextual-Retrieval-for-Databases
 
 ## 📦 Execution Steps:
 
-# 1️⃣ Place Your SQLite Database  
-# Move your SQLite database (.db) file to the project directory.  
-# Update the database path in rag_sql.py inside the main() function.  
+### 1️⃣ Place Your SQLite Database  
+Move your SQLite database (.db) file to the project directory.  
+Update the database path in rag_sql.py inside the main() function.  
 
-# 2️⃣ Run the RAG Pipeline  
+### 2️⃣ Run the RAG Pipeline  
 python rag_sql.py  
 
-# 3️⃣ Start Asking Questions!  
+### 3️⃣ Start Asking Questions!  
 Once the database is processed, you can enter SQL-related questions in the terminal.  
+
 Example queries:  
 > What is the total revenue from orders in 2024?  
 > List all employees who joined after 2020.  
